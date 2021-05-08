@@ -1,0 +1,61 @@
+#main{
+    place-items: center;
+    display: grid;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    grid-template-columns: repeat(auto-fit,300px);
+    div{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        img{
+            border-radius: 10px;
+            transition: all 0.1s ease-out;
+
+            &:hover{
+                margin-top: -20px;
+                filter: brightness(1.25);
+            }
+        }
+    }
+}
+
+body{
+    font-weight: bolder;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#upper{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    padding-top:30px ;
+    padding-bottom:30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    *{
+
+        padding: 10px;
+    }
+    input{
+        width: 50%;
+        border-radius: 3px;
+        border: 0px solid transparent;
+        box-shadow: 0px 0px 3px 0px black inset;
+    }
+    button{
+        padding: 8px;
+    }
+}
